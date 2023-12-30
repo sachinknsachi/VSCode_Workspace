@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville&family=Great+Vibes&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  background: #a094d4;
+  width: 98vw;
+}
+
+.container {
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Hedaing {
+  color: #3a3a3f;
+  font-size: 60px;
+  font-family: "Great Vibes", cursive;
+}
+
+.jodi-img {
+  width: 60%;
+}
+
+.topleft-img {
+  position: absolute;
+  top: -3px;
+  left: -6px;
+  width: 30%;
+}
+
+.bottomright-img {
+  transform: rotate(-90deg);
+  position: absolute;
+  top: -3px;
+  right: 0px;
+  width: 30%;
+}
+
+.text-img {
+  margin-top: -100px;
+}
+
+.contents {
+  background: #fff;
+  border-radius: 4px;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contents p {
+  color: #3a3a3f;
+  text-align: center;
+}
+
+.end-text {
+  margin-left: 10px;
+}
+
+.wedding-location {
+  font-size: 450%;
+  margin-top: 50px;
+  font-family: "Great Vibes", cursive;
+}
+
+.location {
+  font-size: 140%;
+  margin-top: 20px;
+}
+
+.req {
+  font-size: 140%;
+  margin-top: 30px;
+}
+
+.gmaps {
+  width: 95%;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1230px) {
+  .contents {
+    width: 90%;
+    font-size: 5px;
+  }
+
+  .Hedaing {
+    font-size: 20px;
+  }
+
+  .text-img {
+    margin-top: -30px;
+  }
+
+  .topleft-img {
+    width: 45%;
+  }
+
+  .bottomright-img {
+    width: 45%;
+  }
+
+  .text-img {
+    width: 60%;
+  }
+
+  .wedding-location {
+    margin-top: 20px;
+  }
+
+  .location {
+    margin-top: 10px;
+  }
+
+  .req {
+    margin-top: 10px;
+  }
+
+  .gmaps {
+    margin-top: 30px;
+    height: 200px;
+  }
+}
+
+/* SVG CSS */
+.name-date {
+  width: 60%;
+  height: 60%;
+}
+
+tspan {
+  white-space: pre;
+}
+
+.t0 {
+  font-size: 28px;
+  fill: #3a3a3f;
+  font-weight: 400;
+  font-family: "Baskervville-Regular", "Baskervville";
+}
+
+.t1 {
+  font-size: 82px;
+  fill: #3a3a3f;
+  font-weight: 400;
+  font-family: "Baskervville-Regular", "Baskervville";
+}
+
+.s2 {
+  fill: #3a3a3f;
+}
+
+.t3 {
+  font-size: 134px;
+  fill: #3a3a3f;
+  font-weight: 400;
+  font-family: "GreatVibes-Regular", "Great Vibes";
+}
+
+.t4 {
+  font-size: 34px;
+  fill: #3a3a3f;
+  font-weight: 400;
+  font-family: "Baskervville-Regular", "Baskervville";
+}
+
+.t5 {
+  font-size: 135px;
+  fill: #3a3a3f;
+  font-weight: 400;
+  font-family: "GreatVibes-Regular", "Great Vibes";
+}
+
+/* Switch */
+.switch {
+  --false: #e4c500;
+  --true: #e4c500;
+  position: fixed;
+  z-index: 1;
+  bottom: 50px;
+  right: 5px;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  height: 2rem;
+  width: 3.5rem;
+  background-color: #fff;
+  position: relative;
+  border-radius: 0.2em;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3)
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  display: block;
+  height: 1.9em;
+  width: 1.9em;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: calc(1.9em / 2 + 0.3em);
+  background-color: var(--false);
+  border-radius: 0.2em;
+  transition: 0.3s ease;
+}
+
+input[type="checkbox"]:checked::before {
+  background-color: var(--true);
+  left: calc(100% - (1.9em / 2 + 0.3em));
+}

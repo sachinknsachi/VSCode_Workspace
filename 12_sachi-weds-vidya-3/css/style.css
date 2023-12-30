@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Great+Vibes&display=swap');
+/* font-family: 'Baskervville', serif;
+   font-family: 'Great Vibes', cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background: #a39ebe;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: calc((95vw * 3497) / 3000);
+}
+  
+.main {
+    background: url('../images/main.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: calc((95vw * 3497) / 3000);
+    width: 95vw;
+}
+
+.text {
+    background: url('../images/text.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: calc((95vw * 3497) / 3000);
+    width: 95vw;
+}
+
+.main, .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body,
+html {
+  font-family: Sail;
+  background-color: #f7f7f7;
+}
+.switch {
+  position: fixed;
+  font-family: Baloo Tamma\2;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  bottom: 30px;
+  z-index: 100;
+  right: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 1px #403c4329;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  padding-top: 7px;
+  padding-left: 8px;
+  background-color: #fff;
+  border: 1px solid #efefef;
+}
+.slider,
+.slider:before {
+  position: absolute;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+.slider:before {
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 3px;
+  background-color: #ffc107;
+}
+input:checked + .slider {
+  background-color: #fff;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #fff;
+}
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}

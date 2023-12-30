@@ -1,0 +1,24 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1544 1800" width="3000" height="3497">
+	<title>18728833-ai</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,-1800,3000,0,888,1800)">
+			<stop offset="0" stop-color="#727c81"/>
+			<stop offset="1" stop-color="#f5f5f5"/>
+		</linearGradient>
+		<linearGradient id="g2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,342.55,-3000,0,1408.443,1457.45)">
+			<stop offset="0" stop-color="#727c81"/>
+			<stop offset="1" stop-color="#f5f5f5"/>
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: url(#g1) } 
+		.s1 { fill: url(#g2) } 
+	</style>
+	<g id="background">
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s0" d="m2928 0h-3000v1800h3000z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m2928 1457.5v342.5h-3000v-342.5z"/>
+		</g>
+	</g>
+</svg>

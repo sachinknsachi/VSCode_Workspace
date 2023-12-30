@@ -1,0 +1,55 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 552 479" width="2000" height="1736">
+	<title>text-2</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 28px;fill: #3a3a3f;font-family: "K" } 
+		.t1 { font-size: 28px;fill: #3a3a3f;font-weight: 400;font-family: "Baskervville-Regular", "Baskervville" } 
+		.t2 { font-size: 82px;fill: #3a3a3f;font-weight: 400;font-family: "Baskervville-Regular", "Baskervville" } 
+		.s3 { fill: #3a3a3f } 
+		.t4 { font-size: 134px;fill: #3a3a3f;font-family: "K" } 
+		.t5 { font-size: 34px;fill: #3a3a3f;font-family: "K" } 
+		.t6 { font-size: 135px;fill: #3a3a3f;font-family: "K" } 
+	</style>
+	<g id="text">
+		<g id="&lt;Group&gt;">
+			<text id="J¦æ¯ï" style="transform: matrix(1,0,0,1,248.646,335.314)" >
+				<tspan x="-33" y="0" class="t0">J¦æ¯ï
+</tspan>
+			</text>
+			<text id="FRIDAY" style="transform: matrix(1,0,0,1,107.883,401.062)" >
+				<tspan x="-51.5" y="0" class="t1">FRIDAY
+</tspan>
+			</text>
+			<text id="28" style="transform: matrix(1,0,0,1,247.457,415.401)" >
+				<tspan x="-37.9" y="0" class="t2">28
+</tspan>
+			</text>
+			<text id="AT 8:45 AM" style="transform: matrix(1,0,0,1,393.615,401.062)" >
+				<tspan x="-73.9" y="0" class="t1">AT 8:45 AM
+</tspan>
+			</text>
+			<text id="2023" style="transform: matrix(1,0,0,1,248.007,467.074)" >
+				<tspan x="-24.7" y="0" class="t1">2</tspan><tspan  y="0" class="t1">023
+</tspan>
+			</text>
+			<path id="&lt;Path&gt;" class="s3" d="m190 364.8h-164.2v-0.8h164.2z"/>
+			<path id="&lt;Path&gt;" class="s3" d="m190 420h-164.2v-0.8h164.2z"/>
+			<path id="&lt;Path&gt;" class="s3" d="m469.6 365.2h-164.2v-0.8h164.2z"/>
+			<path id="&lt;Path&gt;" class="s3" d="m469.6 419.2h-164.2v-0.8h164.2z"/>
+		</g>
+		<g id="&lt;Group&gt;">
+			<text id="Sachin" style="transform: matrix(1,0,0,1,172.508,119.301)" >
+				<tspan x="-181" y="0" class="t4">¸Àa£ï
+</tspan>
+			</text>
+			<text id="ªÀÄvÀÄ" style="transform: matrix(1,0,0,1,74.938,193.548)" >
+				<tspan x="-65.3" y="0" class="t5">ªÀÄvÀÄ
+</tspan>
+			</text>
+			<text id="Vidya" style="transform: matrix(1,0,0,1,292.035,253.205)" >
+				<tspan x="-163.2" y="0" class="t6">«zÀå
+</tspan>
+			</text>
+		</g>
+	</g>
+</svg>
